@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<start>
+<text>
+    سلام خوش امدید ب ربات ما چه کاری میتونم براتون کنم
+    </text>
+<notVip>
+    <text>
+        کاربر عزیز شما ویژه نیستین و نمیتوانید فایل اپلود کنید
+        </text>
+    <keyboard>
+        درخواست ویژه شدن
+        </keyboard>
+    <text_send>
+        درخواست شما ارسال شد منتظر موافقت هستیم
+    </text_send>
+</notVip>
+<setVip>
+    <text>
+        با ویژه شدن شما موافقت شد
+    </text>
+</setVip>
+<keyboard_start>
+<one>
+    اپلود فایل
+    </one>
+<two>
+    حساب کاربری
+    </two>
+<three>
+    تاریخچه اپلود
+    </three>
+<four>
+    انتخاب زبان
+    </four>
+</keyboard_start>
+<txt_setlang>
+لطفا با دکمه های زیر زبان خود را انتخاب کنین
+</txt_setlang>
+<lang_set>
+    زبان شما برروی %l تنظیم شد
+    </lang_set>
+<upload>
+    <text>
+       فایل هایتان را ارسال کنید
+    </text>
+    <keyboard>
+        اتمام
+    </keyboard>
+    <end>
+        اپلود فایل ها به اتمام رسید بر روی  /start کلیک کنید
+    </end>
+    <text_upload>
+        فایل شما اپلود شد لینک شما : %link
+    </text_upload>
+</upload>
+<other>
+    <text_account>
+        کاربر %href 
+        ایدی عددی شما : %id
+        نام کاربری شما : %username
+        وضعیت شما: %vip
+        تعداد فایل های اپلودی: %te
+    </text_account>
+    <text_vip>عادی</text_vip>
+</other>
+<history>
+    <upload>
+        فایل های اپلودی شما تا به حال
+    </upload>
+    <notUpload>
+        شما تا به حال هیچ فایلی اپلود نکردید
+    </notUpload>
+</history>
+<panel>
+    <text>
+        سلام لطفا از دکمه های زیر انتخاب کنین
+    </text>
+    <keyboard>
+        <one>
+            ارسال همگانی
+        </one>
+        <two>
+            فوروارد همگانی
+        </two>
+    </keyboard>
+    <sendall>
+        <text>
+            الان پیام خود را بفرسید تا برای همه ارسال کنم
+        </text>
+    </sendall>
+    <forall>
+        <text>
+            الان پیامتو بفرست تا برای همه فوروارد کنم
+        </text>
+    </forall>
+    <anjam>
+        درحال انجام عملیات لطفا کمی صبر کنید
+    </anjam>
+    <anjamend>
+        عملیات تکمیل شد
+    </anjamend>
+</panel>
+</start>

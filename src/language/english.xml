@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<start>
+<text>Hello to our Uploader bot</text>
+<notVip>
+    <text>Your dear user is not special and you can't file the file</text>
+    <keyboard>Request vip</keyboard>
+    <text_send>
+        Your request was sent
+    </text_send>
+</notVip>
+<setVip>
+    <text>
+your request vip accept
+    </text>
+</setVip>
+<keyboard_start>
+<one>
+    upload file
+</one>
+<two>
+    Account
+    </two>
+<three>
+    upload history</three>
+<four>
+    Select Language
+</four>
+</keyboard_start>
+<txt_setlang>
+Please select with the buttons below your language
+</txt_setlang>
+<lang_set
+>your language set on %l
+</lang_set>
+<upload>
+    <text>
+        Send us your files
+    </text>
+    <keyboard>
+        end
+    </keyboard>
+     <end>
+        upload file end
+    </end>
+     <text_upload>
+        file uploaded link: %link
+    </text_upload>
+</upload>
+<other>
+    <text_account>
+        User %href 
+        id : %id
+        username : %username
+         Your situation: %vip
+        count uploaded files: %te
+    </text_account>
+    <text_vip>Normal</text_vip>
+</other>
+<history>
+    <upload>
+You're files uploaded until now
+    </upload>
+    <notUpload>
+          you have not uploaded any files yet
+    </notUpload>
+</history>
+<panel>
+    <text>
+        Use the following buttons
+    </text>
+    <keyboard>
+        <one>
+            send all
+        </one>
+        <two>
+            forward all
+        </two>
+    </keyboard>
+    <sendall>
+        <text>
+            Send your message now so I can send it to everyone
+        </text>
+    </sendall>
+    <forall>
+        <text>
+            Send me your message now so I can forward for everyone
+        </text>
+    </forall>
+    <anjam>
+        During the operation, please wait a while
+    </anjam>
+    <anjamend>
+        The operation was completed
+    </anjamend>
+</panel>
+</start>
