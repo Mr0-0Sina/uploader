@@ -59,16 +59,16 @@ if(isset($dataCall))
 if(dataBase::getStep($fromId) == "upload")
 {
     $code = randCode();
-                     if(isset($update['message']['photo'])){
-                    $ff = $update['message']['photo'];
+                     if(isset($message['photo'])){
+                    $ff = $message['photo'];
                     $fileId = $ff[count($ff)-1]['file_id'];
                     dataBase::pushSaveFile($fileId, $code, "photo", $fromId);
                     $txt_send = str_replace("%link", "\nhttps://t.me/".CONFIG['BOT_USERNAME']."?start=$code", $LANGUAGE->upload->text_upload);
                  }
-                 if (isset($update['message']['video']))
+                 if (isset($message['video']))
                  {
+                    $fileId = $message['video']['file_id'];
                      dataBase::pushSaveFile($fileId, $code, "video", $fromId);
-                    $fileId = $update['message']['video']['file_id'];
                    $txt_send = str_replace("%link", "\nhttps://t.me/".CONFIG['BOT_USERNAME']."?start=$code", $LANGUAGE->upload->text_upload);
 
                  }
@@ -84,7 +84,7 @@ if(dataBase::getStep($fromId) == "upload")
                             telegram::sendMessage([
                         'text' => $txt_send,
                         'disable_web_page_preview' => true,
-                        'reply_to_message_id' => $message_id
+                        'reply_to_message_id' => $messageId
                        ]);
                         }
 }
